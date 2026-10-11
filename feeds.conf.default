@@ -5,9 +5,3 @@ src-git luci https://github.com/immortalwrt/luci.git;openwrt-25.12
 src-git routing https://github.com/openwrt/routing.git;openwrt-25.12
 src-git telephony https://github.com/openwrt/telephony.git;openwrt-25.12
 src-git video https://github.com/openwrt/video.git;openwrt-25.12
-# ---- PassWall2（必加，官方源没有）----
-src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main
-src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main
-
-# ---- 应用过滤 / DPI（appfilter，必加）----
-src-git appfilter https://github.com/destan19/OpenAppFilter.git;master
